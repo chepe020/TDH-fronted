@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+/* Animaciones personalizadas */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+.animate-fade-in-delayed {
+  animation: fade-in 0.8s ease-out 0.3s both;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s infinite;
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Estilos personalizados para Ionic */
+ion-card {
+  --background: white;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+ion-item {
+  --background: transparent;
+  --border-color: transparent;
+  --inner-border-width: 0;
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+
+ion-input {
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+ion-button {
+  --border-radius: 12px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+/* Efectos de hover para elementos interactivos */
+.hover-scale {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Gradientes personalizados */
+.gradient-blue {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+}
+
+.gradient-green {
+  background: linear-gradient(135deg, #10b981, #059669);
+}

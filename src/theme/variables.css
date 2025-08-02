@@ -1,0 +1,40 @@
+:root {
+  /* Colores estándar de Ionic (ya definidos) */
+  --ion-color-tertiary: #159a9c;
+  --ion-color-tertiary-rgb: 21, 154, 156;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #12888a;
+  --ion-color-tertiary-tint: #2ca5a7;
+  --ion-color-medium: #b4bec9;
+  --ion-color-medium-rgb: 180, 190, 201;
+  --ion-color-medium-contrast: #000000;
+  --ion-color-medium-contrast-rgb: 0, 0, 0;
+  --ion-color-medium-shade: #9fabb1;
+  --ion-color-medium-tint: #bdc8d0;
+  --ion-color-dark: #041a25;
+  --ion-color-dark-rgb: 4, 26, 37;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #041721;
+  --ion-color-dark-tint: #1d313b;
+  --ion-color-light: #deefe7;
+  --ion-color-light-rgb: 222, 239, 231;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #c3d2ca;
+  --ion-color-light-tint: #e1f0e8;
+
+  --ion-color-primary: #159a9c; 
+  --ion-color-primary-rgb: 21, 154, 156;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #12888a;
+  --ion-color-primary-tint: #2ca5a7;
+  /* 🎨 Variables personalizadas para la paleta */
+  --color-primary: #159A9C;     /* Verde azulado */
+  --color-secondary: #001F2D;   /* Azul oscuro */
+  --color-accent: #B4BEC9;      /* Gris azulado */
+  --color-light: #DEEFE7;       /* Verde muy claro */
+  --color-white: #FFFFFF;       /* Blanco puro */
+}
